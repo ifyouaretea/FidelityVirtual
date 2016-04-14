@@ -164,6 +164,7 @@ GameObject:
   - 224: {fileID: 86895768}
   - 222: {fileID: 86895771}
   - 114: {fileID: 86895770}
+  - 225: {fileID: 86895772}
   - 114: {fileID: 86895769}
   m_Layer: 5
   m_Name: Image
@@ -233,6 +234,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 86895767}
+--- !u!225 &86895772
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 86895767}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &95350982
 GameObject:
   m_ObjectHideFlags: 0
@@ -801,6 +813,7 @@ GameObject:
   - 224: {fileID: 290668782}
   - 222: {fileID: 290668785}
   - 114: {fileID: 290668784}
+  - 225: {fileID: 290668786}
   - 114: {fileID: 290668783}
   m_Layer: 5
   m_Name: Image
@@ -870,6 +883,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 290668781}
+--- !u!225 &290668786
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 290668781}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &389255504
 GameObject:
   m_ObjectHideFlags: 0
@@ -965,7 +989,6 @@ Transform:
   m_Children:
   - {fileID: 95350983}
   - {fileID: 1083151835}
-  - {fileID: 613633359}
   m_Father: {fileID: 1306762834}
   m_RootOrder: 0
 --- !u!114 &417382010
@@ -1700,8 +1723,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 417382009}
-  m_RootOrder: 2
+  m_Father: {fileID: 1306762834}
+  m_RootOrder: 1
 --- !u!23 &613633360
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1947,6 +1970,7 @@ GameObject:
   - 224: {fileID: 749357184}
   - 222: {fileID: 749357187}
   - 114: {fileID: 749357186}
+  - 225: {fileID: 749357188}
   - 114: {fileID: 749357185}
   m_Layer: 5
   m_Name: Image
@@ -2016,6 +2040,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 749357183}
+--- !u!225 &749357188
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 749357183}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!114 &765051288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2161,6 +2196,7 @@ GameObject:
   - 224: {fileID: 822717751}
   - 222: {fileID: 822717754}
   - 114: {fileID: 822717753}
+  - 225: {fileID: 822717755}
   - 114: {fileID: 822717752}
   m_Layer: 5
   m_Name: Image
@@ -2230,6 +2266,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 822717750}
+--- !u!225 &822717755
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 822717750}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &841089191
 GameObject:
   m_ObjectHideFlags: 0
@@ -2575,6 +2622,7 @@ GameObject:
   - 224: {fileID: 889023709}
   - 222: {fileID: 889023712}
   - 114: {fileID: 889023711}
+  - 225: {fileID: 889023713}
   - 114: {fileID: 889023710}
   m_Layer: 5
   m_Name: Image
@@ -2644,6 +2692,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 889023708}
+--- !u!225 &889023713
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 889023708}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &892995906
 GameObject:
   m_ObjectHideFlags: 0
@@ -2894,7 +2953,7 @@ MonoBehaviour:
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
-            m_BoolArgument: 0
+            m_BoolArgument: 1
           m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -3430,6 +3489,7 @@ GameObject:
   - 114: {fileID: 1113738067}
   - 114: {fileID: 1113738066}
   - 114: {fileID: 1113738065}
+  - 114: {fileID: 1113738069}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -3489,6 +3549,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
+--- !u!114 &1113738069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1113738064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1077351063, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
 --- !u!1 &1208067356
 GameObject:
   m_ObjectHideFlags: 0
@@ -3841,6 +3919,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 417382009}
+  - {fileID: 613633359}
   m_Father: {fileID: 919685446}
   m_RootOrder: 0
 --- !u!114 &1306762835
@@ -4052,6 +4131,7 @@ GameObject:
   - 224: {fileID: 1555457176}
   - 222: {fileID: 1555457179}
   - 114: {fileID: 1555457178}
+  - 225: {fileID: 1555457180}
   - 114: {fileID: 1555457177}
   m_Layer: 5
   m_Name: Image
@@ -4121,6 +4201,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1555457175}
+--- !u!225 &1555457180
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1555457175}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1616013927
 GameObject:
   m_ObjectHideFlags: 0
@@ -4402,6 +4493,7 @@ GameObject:
   - 224: {fileID: 1704305949}
   - 222: {fileID: 1704305952}
   - 114: {fileID: 1704305951}
+  - 225: {fileID: 1704305953}
   - 114: {fileID: 1704305950}
   m_Layer: 5
   m_Name: Image
@@ -4471,6 +4563,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1704305948}
+--- !u!225 &1704305953
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1704305948}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1779499928
 GameObject:
   m_ObjectHideFlags: 0
@@ -4620,6 +4723,7 @@ GameObject:
   - 224: {fileID: 1790284794}
   - 222: {fileID: 1790284797}
   - 114: {fileID: 1790284796}
+  - 225: {fileID: 1790284798}
   - 114: {fileID: 1790284795}
   m_Layer: 5
   m_Name: Image
@@ -4689,6 +4793,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1790284793}
+--- !u!225 &1790284798
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1790284793}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1791374469
 GameObject:
   m_ObjectHideFlags: 0
@@ -5149,6 +5264,7 @@ GameObject:
   - 224: {fileID: 1969126807}
   - 222: {fileID: 1969126810}
   - 114: {fileID: 1969126809}
+  - 225: {fileID: 1969126811}
   - 114: {fileID: 1969126808}
   m_Layer: 5
   m_Name: Image
@@ -5218,6 +5334,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1969126806}
+--- !u!225 &1969126811
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1969126806}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &2022752420
 GameObject:
   m_ObjectHideFlags: 0
@@ -5393,6 +5520,7 @@ GameObject:
   - 224: {fileID: 2055613870}
   - 222: {fileID: 2055613873}
   - 114: {fileID: 2055613872}
+  - 225: {fileID: 2055613874}
   - 114: {fileID: 2055613871}
   m_Layer: 5
   m_Name: Image
@@ -5462,6 +5590,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2055613869}
+--- !u!225 &2055613874
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2055613869}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &2059863127
 GameObject:
   m_ObjectHideFlags: 0

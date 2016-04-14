@@ -32,7 +32,6 @@ public class Teleport : MonoBehaviour, ICardboardGazeResponder {
 
   public void SetGazedAt(bool gazedAt) {
 		GetComponent<Renderer>().material.color = gazedAt ? Color.green : Color.red;
-		//for (i=0;if<=
   }
 
   public void Reset() {

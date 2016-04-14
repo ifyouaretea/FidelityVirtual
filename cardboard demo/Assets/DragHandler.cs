@@ -6,36 +6,34 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
 	public static GameObject itemBeingDragged;
 	Vector3 startPosition;
 	Transform startParent;
+	private Ray ray;
+	private RaycastHit hit;
 
 	#region IBeginDragHandler implementation
-
-	public void OnBeginDrag (PointerEventData eventData)
-	{
+	public void OnBeginDrag (PointerEventData eventData){
 		itemBeingDragged = gameObject;
 		startPosition = transform.position;
 		startParent = transform.parent;
-		GetComponent<CanvasGroup> ().blocksRaycasts = false;
+		//GetComponent<CanvasGroup> ().blocksRaycasts = false;
 	}
-
 	#endregion
 
 	#region IDragHandler implementation
-
-	public void OnDrag (PointerEventData eventData)
-	{
-		transform.position = Input.mousePosition;
+	public void OnDrag (PointerEventData eventData){
+		ray = Camera.main.ScreenPointToRay (Input.mousePosition);
+		if (Physics.Raycast(ray,out hit)){
+			transform.position.Set (hit.point.x, hit.point.y, transform.position.z);
+		}
+			
+		//transform.position = Input.mousePosition;
 	}
-
 	#endregion
 
 	#region IEndDragHandler implementation
-
-	public void OnEndDrag (PointerEventData eventData)
-	{
+	public void OnEndDrag (PointerEventData eventData){
 		itemBeingDragged = null;
-		GetComponent<CanvasGroup> ().blocksRaycasts = true;
+		//GetComponent<CanvasGroup> ().blocksRaycasts = true;
 		transform.position = startPosition;
 	}
-
 	#endregion
 }
