@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - whatsapp
+  - chrome
+  - dota
+  - telegram
+  - paint
+  - vlc
+  - spotify
+  - steam
+  - word
+  - sublime
   layers:
   - Default
   - TransparentFX
