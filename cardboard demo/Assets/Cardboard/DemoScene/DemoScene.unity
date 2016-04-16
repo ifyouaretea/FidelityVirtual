@@ -1373,6 +1373,7 @@ GameObject:
   - 114: {fileID: 370516544}
   - 64: {fileID: 370516543}
   - 114: {fileID: 370516542}
+  - 225: {fileID: 370516548}
   m_Layer: 5
   m_Name: Place holder
   m_TagString: paint
@@ -1481,6 +1482,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 370516540}
+--- !u!225 &370516548
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 370516540}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &389255504
 GameObject:
   m_ObjectHideFlags: 0
@@ -1946,6 +1958,7 @@ GameObject:
   - 114: {fileID: 452662695}
   - 64: {fileID: 452662694}
   - 114: {fileID: 452662699}
+  - 225: {fileID: 452662700}
   m_Layer: 5
   m_Name: Place holder
   m_TagString: paint
@@ -2054,6 +2067,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b6ba1897dd7ab04e9ba9be350f0e888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!225 &452662700
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 452662692}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &468528986
 GameObject:
   m_ObjectHideFlags: 0
@@ -2863,6 +2887,7 @@ GameObject:
   - 114: {fileID: 579255208}
   - 64: {fileID: 579255207}
   - 114: {fileID: 579255206}
+  - 225: {fileID: 579255212}
   m_Layer: 5
   m_Name: Place holder
   m_TagString: paint
@@ -2971,6 +2996,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 579255204}
+--- !u!225 &579255212
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 579255204}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &591031668
 GameObject:
   m_ObjectHideFlags: 0
@@ -3150,6 +3186,7 @@ GameObject:
   - 114: {fileID: 593799943}
   - 64: {fileID: 593799942}
   - 114: {fileID: 593799941}
+  - 225: {fileID: 593799947}
   m_Layer: 5
   m_Name: Place holder
   m_TagString: paint
@@ -3258,6 +3295,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 593799939}
+--- !u!225 &593799947
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 593799939}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &599625811
 GameObject:
   m_ObjectHideFlags: 0
@@ -3352,6 +3400,7 @@ GameObject:
   - 114: {fileID: 601094395}
   - 64: {fileID: 601094394}
   - 114: {fileID: 601094393}
+  - 225: {fileID: 601094399}
   m_Layer: 5
   m_Name: Place holder
   m_TagString: paint
@@ -3460,6 +3509,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 601094391}
+--- !u!225 &601094399
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 601094391}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &613633358
 GameObject:
   m_ObjectHideFlags: 0
@@ -3707,7 +3767,7 @@ GameObject:
   - 114: {fileID: 655105078}
   - 64: {fileID: 655105077}
   - 114: {fileID: 655105076}
-  - 114: {fileID: 655105082}
+  - 225: {fileID: 655105082}
   m_Layer: 5
   m_Name: Place holder
   m_TagString: paint
@@ -3751,10 +3811,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 655105074}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!114 &655105078
 MonoBehaviour:
@@ -3816,36 +3876,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 655105074}
---- !u!114 &655105082
-MonoBehaviour:
+--- !u!225 &655105082
+CanvasGroup:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 655105074}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1862395651, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 7
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 655105079}
-          m_MethodName: Scoll
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
-        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  delegates: []
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &687337961
 GameObject:
   m_ObjectHideFlags: 0
@@ -4067,6 +4108,7 @@ GameObject:
   - 114: {fileID: 800173538}
   - 64: {fileID: 800173539}
   - 114: {fileID: 800173540}
+  - 225: {fileID: 800173541}
   m_Layer: 5
   m_Name: Place holder
   m_TagString: paint
@@ -4175,6 +4217,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b6ba1897dd7ab04e9ba9be350f0e888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!225 &800173541
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 800173533}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &805548301
 GameObject:
   m_ObjectHideFlags: 0
@@ -4675,6 +4728,7 @@ GameObject:
   - 114: {fileID: 891751010}
   - 64: {fileID: 891751009}
   - 114: {fileID: 891751008}
+  - 225: {fileID: 891751014}
   m_Layer: 5
   m_Name: Place holder
   m_TagString: paint
@@ -4783,6 +4837,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 891751006}
+--- !u!225 &891751014
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 891751006}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &892995906
 GameObject:
   m_ObjectHideFlags: 0
@@ -5097,6 +5162,7 @@ GameObject:
   - 114: {fileID: 935900347}
   - 64: {fileID: 935900346}
   - 114: {fileID: 935900345}
+  - 225: {fileID: 935900351}
   m_Layer: 5
   m_Name: Place holder
   m_TagString: dota
@@ -5205,6 +5271,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 935900343}
+--- !u!225 &935900351
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 935900343}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &954743947
 GameObject:
   m_ObjectHideFlags: 0
@@ -7105,6 +7182,7 @@ GameObject:
   - 114: {fileID: 1462989986}
   - 64: {fileID: 1462989985}
   - 114: {fileID: 1462989984}
+  - 225: {fileID: 1462989990}
   m_Layer: 5
   m_Name: Place holder
   m_TagString: paint
@@ -7213,6 +7291,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1462989982}
+--- !u!225 &1462989990
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1462989982}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1499060387
 GameObject:
   m_ObjectHideFlags: 0
@@ -8809,6 +8898,7 @@ GameObject:
   - 114: {fileID: 1936127993}
   - 64: {fileID: 1936127992}
   - 114: {fileID: 1936127991}
+  - 225: {fileID: 1936127997}
   m_Layer: 5
   m_Name: Place holder
   m_TagString: paint
@@ -8917,6 +9007,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1936127989}
+--- !u!225 &1936127997
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1936127989}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1968184278
 GameObject:
   m_ObjectHideFlags: 0
