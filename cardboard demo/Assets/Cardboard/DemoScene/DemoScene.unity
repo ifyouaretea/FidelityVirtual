@@ -165,6 +165,7 @@ GameObject:
   - 222: {fileID: 86895771}
   - 114: {fileID: 86895770}
   - 114: {fileID: 86895769}
+  - 225: {fileID: 86895772}
   m_Layer: 5
   m_Name: dotaIcon
   m_TagString: dota
@@ -233,6 +234,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 86895767}
+--- !u!225 &86895772
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 86895767}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &95350982
 GameObject:
   m_ObjectHideFlags: 0
@@ -558,6 +570,7 @@ GameObject:
   - 224: {fileID: 214706369}
   - 222: {fileID: 214706371}
   - 114: {fileID: 214706370}
+  - 114: {fileID: 214706372}
   m_Layer: 5
   m_Name: whatsappIcon
   m_TagString: whatsapp
@@ -615,6 +628,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 214706368}
+--- !u!114 &214706372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 214706368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8ca12bc8c5a7764cae8be40dec208fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &253567663
 GameObject:
   m_ObjectHideFlags: 0
@@ -845,6 +869,7 @@ GameObject:
   - 222: {fileID: 290668785}
   - 114: {fileID: 290668784}
   - 114: {fileID: 290668783}
+  - 225: {fileID: 290668786}
   m_Layer: 5
   m_Name: spotifyIcon
   m_TagString: spotify
@@ -913,6 +938,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 290668781}
+--- !u!225 &290668786
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 290668781}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &298730646
 GameObject:
   m_ObjectHideFlags: 0
@@ -926,7 +962,6 @@ GameObject:
   - 114: {fileID: 298730651}
   - 114: {fileID: 298730650}
   - 114: {fileID: 298730649}
-  - 114: {fileID: 298730648}
   m_Layer: 5
   m_Name: 4 Slot (Trash)
   m_TagString: Untagged
@@ -952,17 +987,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &298730648
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 298730646}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8ca12bc8c5a7764cae8be40dec208fc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &298730649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1683,10 +1707,9 @@ GameObject:
   - 114: {fileID: 417654720}
   - 114: {fileID: 417654719}
   - 114: {fileID: 417654718}
-  - 114: {fileID: 417654717}
   m_Layer: 5
   m_Name: 1 slot
-  m_TagString: Untagged
+  m_TagString: whatsapp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1709,17 +1732,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &417654717
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 417654715}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8ca12bc8c5a7764cae8be40dec208fc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &417654718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2504,6 +2516,7 @@ GameObject:
   - 224: {fileID: 511933488}
   - 222: {fileID: 511933490}
   - 114: {fileID: 511933489}
+  - 114: {fileID: 511933491}
   m_Layer: 5
   m_Name: Image
   m_TagString: dota
@@ -2561,6 +2574,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 511933487}
+--- !u!114 &511933491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 511933487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8ca12bc8c5a7764cae8be40dec208fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &518606130
 GameObject:
   m_ObjectHideFlags: 0
@@ -3833,6 +3857,7 @@ GameObject:
   - 222: {fileID: 687337965}
   - 114: {fileID: 687337964}
   - 114: {fileID: 687337963}
+  - 225: {fileID: 687337966}
   m_Layer: 5
   m_Name: telegramIcon
   m_TagString: telegram
@@ -3901,6 +3926,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 687337961}
+--- !u!225 &687337966
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 687337961}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &749357183
 GameObject:
   m_ObjectHideFlags: 0
@@ -3912,6 +3948,7 @@ GameObject:
   - 222: {fileID: 749357187}
   - 114: {fileID: 749357186}
   - 114: {fileID: 749357185}
+  - 225: {fileID: 749357188}
   m_Layer: 5
   m_Name: steamIcon
   m_TagString: steam
@@ -3980,6 +4017,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 749357183}
+--- !u!225 &749357188
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 749357183}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!114 &765051288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4303,6 +4351,7 @@ GameObject:
   - 222: {fileID: 822717754}
   - 114: {fileID: 822717753}
   - 114: {fileID: 822717752}
+  - 225: {fileID: 822717755}
   m_Layer: 5
   m_Name: paintIcon
   m_TagString: paint
@@ -4371,6 +4420,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 822717750}
+--- !u!225 &822717755
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 822717750}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &876778148
 GameObject:
   m_ObjectHideFlags: 0
@@ -4521,6 +4581,7 @@ GameObject:
   - 222: {fileID: 889023712}
   - 114: {fileID: 889023711}
   - 114: {fileID: 889023710}
+  - 225: {fileID: 889023713}
   m_Layer: 5
   m_Name: vlcIcon
   m_TagString: vlc
@@ -4589,6 +4650,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 889023708}
+--- !u!225 &889023713
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 889023708}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &891751006
 GameObject:
   m_ObjectHideFlags: 0
@@ -6575,6 +6647,7 @@ GameObject:
   - 224: {fileID: 1269918830}
   - 222: {fileID: 1269918832}
   - 114: {fileID: 1269918831}
+  - 114: {fileID: 1269918833}
   m_Layer: 5
   m_Name: Image
   m_TagString: chrome
@@ -6632,6 +6705,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1269918829}
+--- !u!114 &1269918833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1269918829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8ca12bc8c5a7764cae8be40dec208fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1272321188
 GameObject:
   m_ObjectHideFlags: 0
@@ -6855,10 +6939,9 @@ GameObject:
   - 114: {fileID: 1395192469}
   - 114: {fileID: 1395192468}
   - 114: {fileID: 1395192467}
-  - 114: {fileID: 1395192466}
   m_Layer: 5
   m_Name: 3 Slot
-  m_TagString: Untagged
+  m_TagString: dota
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6881,17 +6964,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1395192466
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1395192464}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8ca12bc8c5a7764cae8be40dec208fc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1395192467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7283,6 +7355,7 @@ GameObject:
   - 222: {fileID: 1555457179}
   - 114: {fileID: 1555457178}
   - 114: {fileID: 1555457177}
+  - 225: {fileID: 1555457180}
   m_Layer: 5
   m_Name: wordIcon
   m_TagString: word
@@ -7351,6 +7424,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1555457175}
+--- !u!225 &1555457180
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1555457175}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1616223347
 GameObject:
   m_ObjectHideFlags: 0
@@ -7861,6 +7945,7 @@ GameObject:
   - 222: {fileID: 1704305952}
   - 114: {fileID: 1704305951}
   - 114: {fileID: 1704305950}
+  - 225: {fileID: 1704305953}
   m_Layer: 5
   m_Name: whatsappIcon
   m_TagString: whatsapp
@@ -7929,6 +8014,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1704305948}
+--- !u!225 &1704305953
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1704305948}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1740756848
 GameObject:
   m_ObjectHideFlags: 0
@@ -8159,6 +8255,7 @@ GameObject:
   - 222: {fileID: 1790284797}
   - 114: {fileID: 1790284796}
   - 114: {fileID: 1790284795}
+  - 225: {fileID: 1790284798}
   m_Layer: 5
   m_Name: sublimeIcon
   m_TagString: sublime
@@ -8227,6 +8324,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1790284793}
+--- !u!225 &1790284798
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1790284793}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1800988185
 GameObject:
   m_ObjectHideFlags: 0
@@ -9006,10 +9114,9 @@ GameObject:
   - 114: {fileID: 1988752768}
   - 114: {fileID: 1988752767}
   - 114: {fileID: 1988752766}
-  - 114: {fileID: 1988752765}
   m_Layer: 5
   m_Name: 2 slot
-  m_TagString: Untagged
+  m_TagString: chrome
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9032,17 +9139,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1988752765
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1988752763}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8ca12bc8c5a7764cae8be40dec208fc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1988752766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9254,6 +9350,7 @@ GameObject:
   - 222: {fileID: 2055613873}
   - 114: {fileID: 2055613872}
   - 114: {fileID: 2055613871}
+  - 225: {fileID: 2055613874}
   m_Layer: 5
   m_Name: chromeIcon
   m_TagString: chrome
@@ -9322,6 +9419,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2055613869}
+--- !u!225 &2055613874
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2055613869}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &2059863127
 GameObject:
   m_ObjectHideFlags: 0
@@ -9402,7 +9510,6 @@ GameObject:
   - 114: {fileID: 2127224260}
   - 114: {fileID: 2127224259}
   - 114: {fileID: 2127224258}
-  - 114: {fileID: 2127224257}
   m_Layer: 5
   m_Name: View All
   m_TagString: Untagged
@@ -9428,17 +9535,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2127224257
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2127224255}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8ca12bc8c5a7764cae8be40dec208fc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2127224258
 MonoBehaviour:
   m_ObjectHideFlags: 0
