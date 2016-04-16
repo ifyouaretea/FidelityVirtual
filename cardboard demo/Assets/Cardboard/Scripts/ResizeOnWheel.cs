@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
 
-public class ResizeOnWheel : MonoBehaviour , IPointerEnterHandler, IPointerExitHandler {
+public class ResizeOnWheel : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler {
 
 	#region Inspector fields
 	[SerializeField] float startSize = 1;
@@ -19,8 +19,8 @@ public class ResizeOnWheel : MonoBehaviour , IPointerEnterHandler, IPointerExitH
 	#region Unity Methods
 	private void Update() {
 		float scrollWheel = -Input.GetAxis("Mouse ScrollWheel");
-
-		if (onObj && scrollWheel != 0) {
+		Debug.Log (onObj);
+		if (onObj && scrollWheel != 0 && Input.GetKey(KeyCode.LeftControl)) {
 			ChangeZoom(scrollWheel);
 		}
 	}
