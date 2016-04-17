@@ -10,11 +10,8 @@ public class openApp : MonoBehaviour {
     private bool isShowing;
     public GameObject openApps;
     private List<GameObject> listofOpenedApps = new List<GameObject>();
-    //public GameObject canvas;
-    //public CardboardHead head;
-    private Vector3 defaultLaunchPos;
-    private Vector3 defaultLaunchScale;
-
+    public GameObject canvas;
+        
     public void isActive()
     {
         // placeholder = gameObject;
@@ -22,17 +19,11 @@ public class openApp : MonoBehaviour {
         // placeholder.SetActive(!placeholder.activeSelf);
 
         Debug.Log("isActive()");
-        GameObject temp = Instantiate(gameObject);
-        temp.transform.SetParent(openApps.transform);
-        //Ray currRay = head.Gaze;
-        Vector3 pos = Cardboard.SDK.HeadPose.Position;
-
-
-        temp.transform.localPosition = new Vector3(50, -157252.5f, 0);
-        temp.transform.localScale = new Vector3(1, 1, 1);
+        GameObject temp = Instantiate(canvas,new Vector3(50, -157252.5f,0));
         temp.SetActive(true);
+        temp.transform.SetParent(openApps.transform);
 
-        //((RectTransform)temp.transform).position = new Vector3(50, -157252.5f, 0);
+        ((RectTransform)temp.transform).position = new Vector3();
         
         
         listofOpenedApps.Add(temp);
@@ -40,6 +31,10 @@ public class openApp : MonoBehaviour {
 
     }
 
+    private GameObject Instantiate(GameObject canvas, Vector3 vector3)
+    {
+        throw new NotImplementedException();
+    }
 
 
     //   //get tag
@@ -84,14 +79,11 @@ public class openApp : MonoBehaviour {
 
     //   }
 
-    // Use this for initialization
-    void Start()
-    {
-        // somehow using these do not work. so they are not used at the moment.
-        defaultLaunchPos = new Vector3(50, -157252.5f, 0);
-        defaultLaunchScale = new Vector3(1, 1, 1);
+    //   // Use this for initialization
+    //   void Start () {
+    //       isShowing = false;
 
-    }
+    //   }
 
     //// Update is called once per frame
     //void Update () {
