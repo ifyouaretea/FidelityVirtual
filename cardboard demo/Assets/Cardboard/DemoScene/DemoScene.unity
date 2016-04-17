@@ -856,8 +856,8 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 266653292}
-  m_LocalRotation: {x: -0.9522655, y: 0.0073974766, z: -0.027075006, w: 0.303978}
-  m_LocalPosition: {x: 0, y: 0, z: -1061.7616}
+  m_LocalRotation: {x: -0.95263296, y: 0.0005906174, z: -0.005750325, w: 0.30406743}
+  m_LocalPosition: {x: 0, y: 0, z: -1061.7534}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1379162058}
@@ -866,7 +866,7 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -20, y: 254.94446}
+  m_AnchoredPosition: {x: -20, y: 254.94263}
   m_SizeDelta: {x: 131, y: -267}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &266653294
@@ -4406,7 +4406,7 @@ GameObject:
   - 114: {fileID: 750037892}
   - 114: {fileID: 750037891}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: Date Display
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8008,7 +8008,7 @@ GameObject:
   - 114: {fileID: 1379162060}
   - 114: {fileID: 1379162059}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Time Display
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
