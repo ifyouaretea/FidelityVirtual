@@ -9,9 +9,9 @@ public class sublime_editor : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 		textbox.text = inputfield.text;
@@ -20,9 +20,4 @@ public class sublime_editor : MonoBehaviour {
 	public void updateScroll(){
 		scrollRect.verticalNormalizedPosition = 0.0f;
 	}
-
-	public void OnSubmit(){
-		inputfield.text += "\n";
-	}
-	
 }
