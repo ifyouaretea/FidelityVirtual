@@ -19,6 +19,7 @@ public class ResizeOnWheel : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 	#region Unity Methods
 	private void Update() {
 		float scrollWheel = -Input.GetAxis("Mouse ScrollWheel");
+		Debug.Log (onObj);
 		if (onObj && scrollWheel != 0 && Input.GetKey(KeyCode.LeftControl)) {
 			ChangeZoom(scrollWheel);
 		}
