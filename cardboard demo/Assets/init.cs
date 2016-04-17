@@ -17,10 +17,10 @@ public class init : MonoBehaviour {
 
         foreach (var gameObj in FindObjectsOfType(typeof(GameObject)) as GameObject[])
         {
-			if (gameObj.name == "Place holder" || gameObj.name=="All Apps"){
-                gameObj.SetActive(false);
+			//if (gameObj.name == "Place holder" || gameObj.name=="All Apps"){
+   //             gameObj.SetActive(false);
 
-            }
+   //         }
 			if (gameObj.name == "Favourites"){
 				foreach (Transform child in gameObj.transform)  
 				{  
