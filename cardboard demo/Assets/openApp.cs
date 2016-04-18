@@ -18,6 +18,7 @@ public class openApp : MonoBehaviour {
         //gameObject.SetActive(!gameObject.activeSelf);
         temp.transform.localPosition = new Vector3(50, -157252.5f, 0);
         temp.transform.localScale = new Vector3(1, 1, 1);
+		temp.tag = "open";
         temp.SetActive(true);
         listofOpenedApps.Add(temp);
         Debug.Log("number of open apps: " + listofOpenedApps.Count);
