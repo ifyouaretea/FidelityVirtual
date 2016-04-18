@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class scriptTextBox : MonoBehaviour {
 
@@ -15,7 +16,6 @@ public class scriptTextBox : MonoBehaviour {
 		// resize textbox to screen size
 		screenSize = Get_Size (screen);
 		Set_Size (textBox, screenSize[0] , screenSize[1], size_Offset );
-
 		textBox.transform.position.Set (10,-10,0);
 	}
 
